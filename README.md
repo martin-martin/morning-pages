@@ -8,7 +8,7 @@ questions.
 
 Each exercises takes less than 5 minutes.
 
-Install the dependencies from `requirements.txt` and run `pages.py` (Python 3)
+Install the dependencies from `requirements.txt` and run `cron_pages.py` (Python 3)
 to register the jobs in your crontab.
 
 Have fun! :)
