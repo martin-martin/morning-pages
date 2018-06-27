@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+        <string>in.datamat.evening_pages</string>
+    <key>WorkingDirectory</key>
+        <string>/Users/martin/Documents/projects/daily/</string>
+    <key>ProgramArguments</key>
+        <array>
+            <string>/bin/bash</string>
+            <string>-c</string>
+            <string>cwd=`pwd`;d=`date "+%Y_%m_%d"`;evening="$cwd/evening.txt";new_e="$cwd/$d-2.txt";cp $evening $new_e;open $new_e;</string>
+        </array>
+    <key>StartCalendarInterval</key>
+        <dict>
+          <key>Hour</key>
+          <integer>21</integer>
+        </dict>
+    <key>StandardErrorPath</key>
+        <string>/Users/martin/Documents/projects/daily/elog.err</string>
+</dict>
+</plist>

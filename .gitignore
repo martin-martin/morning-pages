@@ -1,2 +1,3 @@
 # exclude all personal user generated notes
 *[0-9].txt
+*.err
