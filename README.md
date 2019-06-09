@@ -7,7 +7,7 @@ and Evening Pages (at 9PM). These writing prompts ask you to answer a
 few short predefined questions. Completing them can help to reflect
 and focus on your aims.
 
-Evening Pages now include the MIT (most important task) for the coming day
+Evening Pages now include the [MIT (most important task)](https://github.com/martin-martin/time-mgmt) for the coming day
 and open up for revisit in the morning.
 
 Each exercises takes less than 5 minutes.
