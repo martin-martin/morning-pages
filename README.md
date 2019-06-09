@@ -2,9 +2,13 @@
 
 Computational assistance in establishing daily preparation and reflection habits.
 
-Initiates two cron jobs that will bring up Morning Pages (at 7AM)
-and Evening Pages (at 10PM) that prompt you to answer to short pre-defined
-questions.
+Initiates two CRON jobs that will bring up Morning Pages (at 6AM)
+and Evening Pages (at 9PM). These writing prompts ask you to answer a
+few short predefined questions. Completing them can help to reflect
+and focus on your aims.
+
+Evening Pages now include the MIT (most important task) for the coming day
+and open up for revisit in the morning.
 
 Each exercises takes less than 5 minutes.
 
@@ -13,9 +17,9 @@ to register the jobs in your crontab.
 
 Have fun! :)
 
-# Note
+## Note
 
-In order for cron to run, your compter needs to be switched on. You can adapt the
+In order for CRON to run, your computer needs to be switched on. You can adapt the
 times easily in `cron_pages.py` in the following lines to fit your personal schedule:
 
 ```
@@ -26,7 +30,7 @@ e_job.hour.on(21)  # <- change for different evening time
 ## UPDATE: `.plist`
 
 Using `.plist` files on MacOS allows to schedule tasks that run **also later**, e.g.
-in case the computer was asleep or switched off at the scheduled time.
+in case the computer was asleep at the scheduled time.
 
 The `.plist` files need to be loaded in order to work, and the **working directory**
 needs to be adapted for your specific path. Change the `<string>` part of this:
