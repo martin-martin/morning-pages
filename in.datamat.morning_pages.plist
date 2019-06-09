@@ -10,7 +10,7 @@
         <array>
             <string>/bin/bash</string>
             <string>-c</string>
-            <string>cwd=`pwd`;d=`date "+%Y_%m_%d"`;morning="$cwd/morning.txt";new_m="$cwd/$d-1.txt";cp $morning $new_m;open $new_m;</string>
+            <string>cwd=`pwd`;last=`ls -t | head -n1`;open $cwd/$last;d=`date "+%Y_%m_%d"`;morning="$cwd/morning.txt";new_m="$cwd/$d-1.txt";cp $morning $new_m;open $new_m;</string>
         </array>
     <key>StartCalendarInterval</key>
         <dict>
