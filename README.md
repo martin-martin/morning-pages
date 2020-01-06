@@ -10,7 +10,7 @@ and focus on your aims.
 Evening Pages now include the [MIT (most important task)](https://github.com/martin-martin/time-mgmt) for the coming day
 and open up for revisit in the morning.
 
-Each exercises takes less than 5 minutes.
+<mark>Each exercises takes less than 5 minutes.</mark>
 
 Install the dependencies from `requirements.txt` and run `cron_pages.py` (Python 3)
 to register the jobs in your crontab.
