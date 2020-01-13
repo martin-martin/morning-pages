@@ -2,6 +2,10 @@
 
 Computational assistance in establishing daily preparation and reflection habits.
 
+**NOTE:** MacOS Catalina introduced [access restrictions](https://developer.apple.com/documentation/macos_release_notes/macos_catalina_10_15_release_notes), that prevent the `plist`s from working as before. Update pending, here's some [reading material](https://www.reddit.com/r/MacOS/comments/dffpzj/launchd_agent_no_longer_functions_after_catalina/).
+
+---
+
 Initiates two CRON jobs that will bring up Morning Pages (at 6AM)
 and Evening Pages (at 9PM). These writing prompts ask you to answer a
 few short predefined questions. Completing them can help to reflect
